@@ -19,7 +19,7 @@ por use cases para organizar a lógica da aplicação de forma clara e modular.
 
 ## Estrutura do Projeto
 
-A estrutura do projeto segue a organização típica de uma aplicação separada por use cases:
+A estrutura do projeto segue a organização típica considerando projetos para API, Applicatin, Domain, Repository e IoC
 ```
 projeto-exemplo/
 ├── src/
