@@ -7,8 +7,7 @@ namespace Prototipo.Exemplo.Application.UseCases.Cursos.CriacaoCurso;
 
 public class CriarCursoCommandValidator : ApplicationRequestValidator<CriarCursoCommand, EntityIdDto?>
 {
-    public CriarCursoCommandValidator(INotificationContext notificationContext)
-        : base(notificationContext)
+    public CriarCursoCommandValidator(INotificationContext notificationContext) : base(notificationContext)
     {
         RuleFor(x => x.Nome)
             .NotNull()

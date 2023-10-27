@@ -5,7 +5,6 @@ using Prototipo.Exemplo.IoC.Extensions;
 
 namespace Prototipo.Exemplo.IoC;
 
-
 public static class RegistrationDependencyExtensions
 {
     public static void RegistrarServicos(this IServiceCollection services, IConfiguration configuration)
