@@ -3,15 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototipo.Exemplo.Domain", "src\prototipo.exemplo.domain\Prototipo.Exemplo.Domain.csproj", "{C65C86E1-D1AB-44D1-96BC-0EEAF3A01B33}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototipo.Exemplo.Domain", "src\prototipo.exemplo.domain\Prototipo.Exemplo.Domain.csproj", "{C65C86E1-D1AB-44D1-96BC-0EEAF3A01B33}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototipo.Exemplo.Application", "src\prototipo.exemplo.application\Prototipo.Exemplo.Application.csproj", "{62AEAF5C-66AA-4F8B-9565-6038C8641C6F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototipo.Exemplo.Application", "src\prototipo.exemplo.application\Prototipo.Exemplo.Application.csproj", "{62AEAF5C-66AA-4F8B-9565-6038C8641C6F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototipo.Exemplo.IoC", "src\prototipo.exemplo.ioc\Prototipo.Exemplo.IoC.csproj", "{30294D52-C1C4-4D6F-9996-8055B539B374}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototipo.Exemplo.IoC", "src\prototipo.exemplo.ioc\Prototipo.Exemplo.IoC.csproj", "{30294D52-C1C4-4D6F-9996-8055B539B374}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototipo.Exemplo.Api", "src\prototipo.exemplo.api\Prototipo.Exemplo.Api.csproj", "{189DBEE2-AA55-4AE5-870B-A62DB373C5EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototipo.Exemplo.Api", "src\prototipo.exemplo.api\Prototipo.Exemplo.Api.csproj", "{189DBEE2-AA55-4AE5-870B-A62DB373C5EB}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototipo.Exemplo.Infra.Postgress", "src\prototipo.exemplo.infra.postgress\Prototipo.Exemplo.Infra.Postgress.csproj", "{ED9F02C3-C1EC-4B03-9B0C-0BF65F033F83}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Itens de Solução", "Itens de Solução", "{7038F628-FCD0-4A61-9162-81578AE5FA23}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
