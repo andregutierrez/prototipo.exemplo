@@ -54,7 +54,9 @@ gerenciar cursos do microserviço.
 
 A classe CursosController desempenha um papel de gerenciamento das solicitações HTTP relacionadas a cursos na aplicação. Ela 
 adota o padrão Mediator para estabelecer uma separação clara entre as responsabilidades do controlador e a lógica de negócios 
-subjacente. Os métodos desta controller têm uma abordagem minimalista, concentrando-se exclusivamente no processamento de 
+subjacente. 
+
+Os métodos desta controller têm uma abordagem minimalista, concentrando-se exclusivamente no processamento de 
 comandos e consultas, sem tratamentos de erros ou ações adicionais que não estejam diretamente relacionadas a essas operações.
 
 Os parâmetros dos métodos podem utilizar o contrato das commands para compreender claramente as informações necessárias que o 
