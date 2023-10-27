@@ -14,8 +14,8 @@ por use cases para organizar a lógica da aplicação de forma clara e modular.
 
 - Linguagem de Programação: C#
 - Outras bibliotecas/frameworks: 
-- - [MediaR] (https://www.nuget.org/packages/MediatR/)
-- - [FluentValidation] (https://docs.fluentvalidation.net/en/latest/)
+- - [MediaR](https://www.nuget.org/packages/MediatR/)
+- - [FluentValidation](https://docs.fluentvalidation.net/en/latest/)
 
 ## Estrutura do Projeto
 
